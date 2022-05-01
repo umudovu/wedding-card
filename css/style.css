@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(162,232,224);
+    background: linear-gradient(90deg, rgba(162,232,224,1) 0%, rgba(148,187,233,1) 100%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card-container{
+    width: 320px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 253, 253);
+    border-radius: 3px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.card-container .card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card h1{
+    width: 250px;
+    font-weight: 100;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'WindSong', cursive;
+    transform: rotateZ(340deg);
+}
+
+.card h3{
+    font-size: 13px;
+    font-family: 'Alata', sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.card h5{
+    font-size: 7px;
+    font-family: 'Syncopate', sans-serif;
+    letter-spacing: 1px;
+}
+
+.card h4{
+    width: 150px;
+    text-align: center;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.card h6{
+    font-family: 'Caveat', cursive;
+    font-size: 12px;
+}
